@@ -15,9 +15,3 @@ Este é um projeto de portfólio pessoal responsivo desenvolvido como parte das 
 * **Persistência de Estado**: O navegador lembra se você selecionou o modo escuro ou claro, mantendo a preferência mesmo se a página for atualizada.
 * **Design Responsivo**: Layout 100% adaptado para computadores, tablets e smartphones.
 * **Formulário de Contato Inteligente**: Interface que exibe o formulário sob demanda e realiza a validação dos campos e do formato do e-mail antes do envio.
-
-## 💻 Como Rodar o Projeto
-
-1. Faça o clone deste repositório:
-   ```bash
-   git clone [https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git](https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git)
