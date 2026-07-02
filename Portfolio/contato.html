@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Pessoal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="dark">
+  <header class="cabecalho">
+    <div>
+        <h1>Bem vindo ao meu portifólio!</h1>
+    </div>    
+
+    <button id="themeBtn">🌙</button>
+
+    <div class="alin-opcoes">
+        <div class="opcoes">
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="contato.html">Contato</a>
+        </div>
+        <p>Selecione uma opção acima</p>    
+    </div>
+  </header>
+
+
+    <main class="card">
+        <h1>VAMOS CRIAR ALGO</h1>
+        <h3>Clique no botão para preencher o formulário</h3>
+
+        <button id="btnAbrirForm" class="btn-formulario">Abrir formulário</button>
+
+        <form id="formContato" class="formulario-contato">
+            <div class="grupo-campo">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
+            </div>
+
+            <div class="grupo-campo">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email">
+            </div>
+
+            <div class="grupo-campo">
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="telefone">
+            </div>
+
+            <div class="grupo-campo">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" rows="4"></textarea>
+            </div>
+
+            <button type="submit" class="botao btn-enviar">Enviar Solicitação</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Esse é um portifolio criado por mim mesmo, vamos nos conectar...</p>
+    </footer>
+    <script src="js/script.js" defer></script></body>
+</html>
